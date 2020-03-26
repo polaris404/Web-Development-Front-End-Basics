@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="sign-up.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <h2>SIGN UP</h2>
+    <div class="form-edit">
+      <form action="index.html" method="post">
+        <fieldset>
+          <legend class="legend-edit">Name</legend>
+          <label for="first-name">First Name:</label>
+          <input type="text" name="first-name" placeholder="First Name" id="first-name" required><br>
+          <label for="last-name">Last Name:</label>
+          <input type="text" name="last-name" placeholder="Last Name" id="last-name" required>
+        </fieldset>
+
+        <fieldset>
+          <legend class="legend-edit">E-mail</legend>
+          <label for="email">E-Mail:</label>
+          <input type="email" name="E-mail" placeholder="E-Mail" id="email" required><br>
+          <label for="pass">Password:</label>
+          <input type="password" name="password" placeholder="Password" id="pass" required minlength="5" maxlength="15">
+        </fieldset>
+
+        <fieldset>
+          <legend class="legend-edit">Date of Birth</legend>
+          <input type="date" name="dob" required>
+        </fieldset>
+
+        <fieldset>
+          <legend class="legend-edit">Gender</legend>
+          <label for="male">Male:</label>
+          <input type="radio" name="gender" id="male">
+          <label for="female">Female:</label>
+          <input type="radio" name="gender" id="female">
+          <label for="other">I'm not sure:</label>
+          <input type="radio" name="gender" id="other">
+        </fieldset>
+
+        <input type="checkbox" name="terms" id="check" required>
+        <label for="check">I agree the Terms & Service</label>
+        <p><button type="submit" name="button">Submit</button></p>
+      </form>
+    </div>
+  </body>
+</html>
