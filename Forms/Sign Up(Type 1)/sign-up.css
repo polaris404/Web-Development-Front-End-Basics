@@ -3,9 +3,8 @@ body{
   background: url("unsplash.jpg");
   background-position: center;
   background-size: cover;
-  margin:0;
+  margin:auto;
 }
-
 h2{
   background-color: rgba(0,0,0,0);
   padding: 1rem 0;
@@ -18,7 +17,6 @@ h2{
   top: 0;
   margin-left: 3rem;
 }
-
 
 .form-edit{
   margin-top: 4rem;
@@ -56,11 +54,23 @@ input[type=text],input[type=password],input[type=email]{
   border: 2px solid #D1D1D1;
   border-radius: 4px;
   margin: 0.5rem 0;
-  padding:0.3rem 0.3rem 0.3rem 0.5rem;
+  padding:0.5rem 0.5rem 0.5rem 0.5rem;
   font-family:'Montserrat', sans-serif;
 }
-p{
-  text-align: center;
+input[type=text]:hover,input[type=password]:hover,input[type=email]:hover{
+  border: 2px solid #D1D1D1;
+  border-color: #8c0000;
+  border-radius: 5px;
+  margin: 0.5rem 0;
+  padding:0.5rem 0.5rem 0.5rem 0.5rem;
+  font-family:'Montserrat', sans-serif;
+}
+.label{
+  font-weight: bold;
+}
+.required
+{
+    color: red;
 }
 @media only screen and (max-width:480px){
   .form-edit{
@@ -68,7 +78,6 @@ p{
     height: 80%;
     margin-top: 10%;
     margin-bottom: 10%;
-
     padding: 1.2rem 2rem;
     border-radius: 6px;
     background-color: rgba(255,255,255);
@@ -78,8 +87,9 @@ p{
     margin-right: 10%;
     font-weight: 300;
   }
-    h2{
-      display: none;
     }
+h2{
+      position: absolute;
+  }
 
 }
