@@ -1,6 +1,4 @@
-html{
-  height:100%;
-}
+
 body{
   background: url("unsplash.jpg");
   background-position: center;
@@ -31,7 +29,7 @@ h2{
   background-color: rgba(255,255,255);
   font-family: 'Montserrat', sans-serif;
   width:40%;
-  margin-left: 26%;
+  /* margin-left: 26%; */
   font-weight: 300;
 }
 .form-edit legend{
@@ -64,4 +62,25 @@ input[type=text],input[type=password],input[type=email]{
 }
 p{
   text-align: center;
+}
+@media only screen and (max-width:480px){
+  .form-edit{
+    margin: 0;
+    height: 80%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+
+    padding: 1.2rem 2rem;
+    border-radius: 6px;
+    background-color: rgba(255,255,255);
+    font-family: 'Montserrat', sans-serif;
+    width:80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-weight: 300;
+  }
+    h2{
+      display: none;
+    }
+
 }
