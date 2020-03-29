@@ -36,12 +36,18 @@
 
         <fieldset>
           <legend class="legend-edit">Gender</legend>
-          <input type="radio" name="gender" id="male">
-          <label for="male" class="label">Male</label>
-          <input type="radio" name="gender" id="female">
-          <label for="female" class="label">Female</label>
-           <input type="radio" name="gender" id="other">
-          <label for="other" class="label">I'm not sure</label>
+          <div class="gender-block">
+            <input type="radio" name="gender" id="male">
+            <label for="male" class="label">Male</label>
+          </div>
+          <div class="gender-block">
+            <input type="radio" name="gender" id="female">
+            <label for="female" class="label">Female</label>
+          </div>
+          <div class="gender-block">
+            <input type="radio" name="gender" id="other">
+           <label for="other" class="label">I'm not sure</label>
+          </div>
          </fieldset>
 
         <input type="checkbox" name="terms" id="check" required><span class="required">*</span>
