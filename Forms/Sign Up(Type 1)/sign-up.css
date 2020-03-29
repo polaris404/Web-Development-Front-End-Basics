@@ -75,21 +75,30 @@ input[type=text]:hover,input[type=password]:hover,input[type=email]:hover{
 @media only screen and (max-width:480px){
   .form-edit{
     margin: 0;
-    height: 80%;
-    margin-top: 10%;
+    margin-top: 65px;
     margin-bottom: 10%;
     padding: 1.2rem 2rem;
     border-radius: 6px;
     background-color: rgba(255,255,255);
     font-family: 'Montserrat', sans-serif;
-    width:80%;
-    margin-left: 10%;
-    margin-right: 10%;
+    width:70%;
+    margin-left: 5%;
+    margin-right: 5%;
     font-weight: 300;
   }
-    }
-h2{
-      position: absolute;
+  h2{
+    text-align: center;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    width:80%;
+  }
+  .gender-block{
+    text-align: left;
+    display: block;
+  }
+  body{
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 
 }
